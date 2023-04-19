@@ -7,3 +7,4 @@ Saving datas in session : $_SESSION["username"]="Garima"
    
     IMPORTANT NOTES ::  Session is client specific,
     :: used for - authentication and authorization , shopping carts
+    

@@ -11,7 +11,7 @@ if (!$conn) {
 
     echo $password;
     $hashed_pass=sha1($password);
-    echo $hashed_pass;~
+    echo $hashed_pass;
 
     $sql =  "SELECT * FROM login_db WHERE username='$username' && password='$hashed_pass' limit 1;";
     $result=$conn->query($sql);

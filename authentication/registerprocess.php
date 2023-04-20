@@ -13,7 +13,7 @@ if (!$conn) {
     $result=$conn->query($sql);
     if ($result===TRUE) {
         header('location:login.php');
-        # code...
+        # code..
     } else {
         # code...
     }
